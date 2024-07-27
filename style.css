@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+  width: 1000px;
+  height: 1000px;
+  margin-left: 15%;
+  margin-top: 10%;
+  bottom: 0;
+}
+
+.white h1 {
+  background-color: #e9265e;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+}
+
+.black {
+  background-color: pink;
+  width: 350px;
+  height: 91%;
+  display: float;
+  float: left;
+}
+
+.black img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid white;
+  border-radius: 80px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.green {
+  background-color: palevioletred;
+  width: 650px;
+  height: 91%;
+  float: right;
+}
+
+.side h4 {
+  background-color: hsla(0, 0%, 100%, 0.46);
+}
+.side h4 a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.side a:hover {
+  opacity: 0.5;
+}
+.green {
+  text-align: center;
+}
+.green label {
+  margin: 10px;
+}
+.green input {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
