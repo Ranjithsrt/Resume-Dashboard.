@@ -1,4 +1,4 @@
-body {
+ body {
   background-color: black;
 }
 
@@ -20,9 +20,10 @@ body {
 .black {
   background-color: pink;
   width: 350px;
-  height: 91%;
+  height: 93%;
   display: float;
   float: left;
+  border-radius: 0 0 0 10px;
 }
 
 .black img {
@@ -37,27 +38,45 @@ body {
 .green {
   background-color: palevioletred;
   width: 650px;
-  height: 91%;
+  height: 93%;
   float: right;
+  border-radius: 0 0 10px 0;
 }
 
 .side h4 {
   background-color: hsla(0, 0%, 100%, 0.46);
 }
+
 .side h4 a {
   text-decoration: none;
   cursor: pointer;
 }
+
 .side a:hover {
   opacity: 0.5;
 }
+
 .green {
-  text-align: center;
+  position: relative;
+  right: 0;
 }
+
 .green label {
   margin: 10px;
+  margin-left: 50px;
 }
+
 .green input {
   margin-top: 20px;
   margin-bottom: 25px;
+  position: relative;
+  left: 100px;
+  width: 400px;
+  cursor: pointer;
 }
+
+.green input:hover {
+  opacity: 0.5;
+}
+
+                     /* END */
